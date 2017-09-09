@@ -1,0 +1,359 @@
+@charset "utf-8";
+
+
+*{margin:0;padding:0;}
+.content{
+	position:absolute;
+	
+}
+.page{
+	position: relative;
+}
+.page1{
+	background:#0cf;
+	
+}
+.page1-title{
+	position: absolute;
+	width:60%;
+	left:20%;
+	top:10%;
+}
+.page1-flowers1{
+	position: absolute;
+	left:10%;
+	top:10%;
+	height: 15%;
+	animation: flower 3s infinite;
+}
+@keyframes flower{
+	0%{}
+	25%{transform: rotate(30deg);}
+	50%{transform: rotate(0deg);}
+	75%{transform: rotate(-30deg);}
+	100%{transform: rotate(0deg);}
+}
+.page1-flowers2{
+	position: absolute;
+	right:18%;
+	top:22%;
+	height: 15%;
+	animation: flower 3s infinite;
+}
+.page1-cloudys,.page1-elements{
+	position: absolute;
+	width:100%;
+	height:100%;
+	animation: zoo 2s infinite;
+}
+@keyframes zoo{
+	0%{}
+	50%{transform: scale(0.9);}
+	100%{transform: scale(1);}
+}
+.page1-building{
+	position: absolute;
+	width:100%;
+	bottom:0;
+	height: 30%;
+	display: none;
+	
+}
+.page1-avatar{
+	position: absolute;
+	width:0%;
+	left: 15%;
+	bottom:30%;
+	animation: ber 4s infinite;
+}
+@keyframes ber{
+	0%{}
+	50%{transform: scale(1.2);
+	}
+	100%{transform: scale(1);}
+}
+.page2{
+	background: #000;
+}
+.page2-bg{
+	position: absolute;
+	width:100%;
+	height: 100%;
+	bottom:0;
+	display: none;
+}
+.page2-farm{
+	position: absolute;
+	width:70%;
+	left:30%;
+	top:30%;
+	display: none;
+}
+.page2-it{
+	position: absolute;
+	width:70%;
+	left:30%;
+	top:60%;
+	display: none;
+}
+.page3{
+	background: #f00;
+}
+.page3-bg{
+	position: absolute;
+	width:100%;
+	height:100%;
+	
+}
+.page3-station{
+	position: absolute;
+	width:100%;
+	bottom:0;
+}
+.page3-bus{
+	position: absolute;
+	width:65%;
+	bottom:10%;
+	left:0;
+	
+}
+.page3-avatar{
+	position: absolute;
+	right:0;
+	bottom:13%;
+	height:13%;
+}
+.page3-title{
+	position: absolute;
+	left:0;
+	top:10%;
+	height:5%;
+	display: none;
+}
+.page3-lastTitle{
+	position: absolute;
+	left:0;
+	top:18%;
+	height:5%;
+	display: none;
+}
+.page3-wall{
+	position: absolute;
+	right: 0;
+	bottom:0;
+	height:70%;
+	display: none;
+}
+.page3-myAvatar{
+	 position: absolute;
+	 bottom:66.5%;
+	 right:21%;
+	 width:20%;
+	 display: none;
+}
+.page3-space{
+	position: absolute;
+	width:0%;
+	left:5%;
+	top:20%;
+	display: none;
+	
+}
+.page3-where{
+	position: absolute;
+	bottom:10%;
+	left:10%;
+	width:0%;
+	display: none;
+}
+.page4{
+	background: #0cf;
+}
+.page4-bg{
+	position: absolute;
+	width:100%;
+	height:100%;
+	
+}
+.page4-title{
+	position: absolute;
+	right:0;
+	top:15%;
+	width:40%;
+}
+.page4-off{
+	position: absolute;
+	bottom:0;
+	left:5%;
+	height:70%;
+	z-index: 7;
+}
+.page4-guide{
+	position:absolute;
+	width:50%;
+	left:25%;
+	top:40%;
+	animation: guide 2s infinite;
+	z-index: 9;
+}
+@keyframes guide{
+	0%{}
+	50%{transform: scale(1.2);}
+	100%{transform: scale(1);}
+}
+.page4-onBg{
+	position: absolute;
+	width:100%;
+	height:100%;
+	display: none;
+}
+.page4-you{
+	position: absolute;
+	width:50%;
+	left:25%;
+	top:15%;
+	display: none;
+}
+.up{
+	position:fixed;
+	bottom:5%;
+	left:40%;
+	width:20%;
+	animation: up 2s infinite;
+}
+	@keyframes up{
+		0%{}
+		50%{bottom:3%;}
+		100%{bottom:5%;}
+	}
+.music-btn{
+	position: fixed;
+	right:0;
+	top:0;
+	width:10%;
+	animation: zhuan 2s infinite;
+}
+	@keyframes zhuan{
+		0%{}
+		100%{transform: rotate(360deg);}
+	}
+.page5{
+	background: #0cf;
+}
+.page5-bg{
+	position: absolute;
+	width:100%;
+	height: 100%;
+}
+.page5-avatar{
+	position: absolute;
+	height:30%;
+	top:20%;
+	left:10%;
+}
+.page5-runText{
+	position: absolute;
+	width:70%;
+	top:5%;
+	left:15%;
+	animation: text 2s infinite;
+}
+	@keyframes text{
+		0%{}
+		50%{transform: scale(1.2);}
+		100%{transform: scale(1);}
+	}
+.page5-runTa{
+	position: absolute;
+	width:0%;
+	top:30%;
+	left:10%;
+}
+.page6{
+	background:#00CCFF;
+}
+.page6-bg{
+	position: absolute;
+	width:100%;
+	height: 100%;
+}
+.page6-avatar{
+	position: absolute;
+	height:30%;
+	bottom:0;
+	left:20%;
+	animation: tiao 2s infinite;
+}
+	@keyframes tiao{
+		0%{}
+		50%{bottom:3%;}
+		100%{bottom:0;}
+	}
+.page6-Text{
+	position: absolute;
+	width:70%;
+	top:10%;
+	left:15%;
+	animation: text 2s infinite;
+}
+	@keyframes text{
+		0%{}
+		50%{transform: scale(1.2);}
+		100%{transform: scale(1);}
+	}
+.page6-right{
+	width:20%;
+	position: absolute;
+	right: 5%;
+	bottom:5%;
+animation: right 2s infinite;
+}
+	@keyframes right{
+		0%{}
+		50%{right:0}
+		100%{right:5%}
+	}
+.page6-Ta{
+	position: absolute;
+	width:80%;
+	top:50%;
+	left:10%;
+	display: none;
+}
+
+.page6-star{
+	position: absolute;
+	animation: start 2s infinite;
+	top:10%;
+	display: none;
+	animation: start 2s infinite;
+}
+@keyframes start{
+		0%{}
+		50%{transform: scale(0.9);}
+		100%{transform: scale(1);}
+	}
+	.page6-email{
+		display: none;
+	}
+.page6-logo{
+	position: absolute;
+	width:80%;
+	top:20%;
+	display: none;
+	animation: logo 2s infinite;
+	
+}
+@keyframes logo{
+		0%{}
+		50%{transform: scale(0.9);}
+		100%{transform: scale(1);}
+	}
+.page6-avatar1{
+	position: absolute;
+	width:60%;
+	bottom:0%;
+	right:0%;
+	display: none;
+	
+}
